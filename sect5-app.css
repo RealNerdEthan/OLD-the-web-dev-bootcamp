@@ -1,0 +1,33 @@
+/*
+selector {
+	property: value;
+}
+*/
+
+
+h1 {
+	color: red;
+/*	border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 2px dashed rgb(255, 100, 80);
+}
+
+/*Borders have a: width style color*/
+
+li {
+	color: green;
+}
+
+h4 {
+	color: purple; 
+	background: rgb(255, 100, 80);
+}
+
+body {
+	background-color: pink;
+/*	background: url(https://i.ebayimg.com/images/i/321904358358-0-1/s-l1000.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}

@@ -1,0 +1,49 @@
+body {
+	max-width: 700px;
+	width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+	border: 20px solid #bdc3c7;
+	margin-top: 20px;
+	font-family: "Source Sans Pro";
+}
+
+/*This captializes the first letter of each word in the h2*/
+h2 {
+	color: #2c3e50;
+	text-transform: capitalize;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 2.0rem;
+
+}
+
+p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+hr {
+	border: 1px solid #bdc3c7;
+	margin: 0 20px 0 20px;
+}
+
+.post1 {
+
+}
+
+.post2 {
+
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+.first_paragraph {
+	border-left: 5px solid #bdc3c7;
+	margin: 0 20px 0 20px;
+	padding: 0 0 0 4px;
+}

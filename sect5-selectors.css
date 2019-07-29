@@ -1,0 +1,62 @@
+/*Elements*/
+li {
+
+}
+
+/*class*/
+.hello {
+
+}
+
+/*id*/
+#name {
+
+}
+
+/*Star*/
+/*Using the *, this will select everything on the page*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector*/
+/*Allows you to chain 2 or more selectors together*/
+li a {
+	color: red;
+}
+
+/*Adjacent Selector*/
+/*Allows you to select the next element or the 'sibling' element. Not indented elements, but element on the same level.*/
+h4 + ul {
+	border: 4px solid red;
+}
+
+/*Attribute Selector*/
+/*Is a way to select elements based off of ANY attribute.*/
+a[href="https://www.google.com"] {
+	background: blue;
+}
+
+input[type="text"] {
+	color: blue;
+}
+
+input[type="checkbox"] {
+	background: green;
+}
+
+/*nth of type*/
+/*Allows you to select every nth element*/
+ul:nth-of-type(3) {
+	background: purple;
+}
+/*^--- Only selects the 3rd elememt in the ul, not every 3rd as it goes down the list.*/
+
+li:nth-of-type(3) {
+	background: green;
+}
+
+li:nth-of-type(even) {
+	background: yellow;
+}
+/*^--- Selects every even numbered elememt in the ul as it goes down the list.*/

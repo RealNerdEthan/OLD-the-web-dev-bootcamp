@@ -1,0 +1,24 @@
+/*
+	# is used for an ID selector to select only 1 element that has been identified with a unique ID
+	. is used for a class selector to select multiple elements that have been identified with a unique ID
+	name of element is used for selecting all elements (example: div, body, li)
+	
+*/
+
+
+body {
+	background: orange;
+}
+
+li {
+	border: 2px solid red;
+}
+
+#shopping {
+	color: green;
+	background-color: pink;
+}
+
+.completed {
+	text-decoration: line-through;
+}

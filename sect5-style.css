@@ -1,0 +1,60 @@
+/*Type Selectors are least specific (in order of least to most specific)
+
+li {
+	
+}
+
+li a {
+	
+}
+
+li + a {
+	
+}
+
+*/
+
+/*Then Class, Attribute, and sudo-class selectors
+
+.hello {
+	
+}
+
+input[type="text"] {
+	
+}
+
+*/
+
+/*Finally, ID Selectors are the most specific
+
+#hello {
+	
+}
+
+*/
+
+
+ul {
+	color: purple;
+}
+
+body {
+	color: red;
+}
+
+p {
+	color: green;
+}
+
+li {
+	color: orange;
+}
+
+.highlight {
+	color: yellow;
+}
+
+#special {
+	color: pink;
+}
